@@ -1,0 +1,173 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #000;
+  margin: 0;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  padding: 0 3rem;
+  background-color: #000 !important;
+  color: #fff;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  color: #fff !important;
+}
+.netflix__logo {
+  width: 80px;
+}
+.carousel-caption {
+  bottom: 23rem !important;
+  left: 5% !important;
+  right: 60% !important;
+}
+.profile__img {
+  width: 40px;
+  margin-left: 1rem;
+}
+.notification {
+  width: 25px;
+}
+.text__left {
+  text-align: left;
+}
+.text__justify {
+  text-align: justify;
+}
+.play__button {
+  background-color: #fff;
+  font-weight: 600;
+  width: 120px;
+  margin-right: 0.3rem;
+}
+.play__button:hover {
+  border: 1px solid rgb(3, 3, 3);
+  color: rgb(0, 0, 0);
+}
+.info__button {
+  background-color: rgba(0, 0, 0, 0.089);
+  font-weight: 600;
+  width: 150px;
+  color: #fff;
+}
+.info__button:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.play__icon {
+  width: 20px;
+  padding-right: 0.3rem;
+}
+.info__icon {
+  width: 23px;
+  padding-right: 0.3rem;
+}
+.netflix__title {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.m__1 {
+  margin: 0.5rem !important;
+}
+.mt__1 {
+  margin-top: 1rem;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #696363 !important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.white {
+  color: grey;
+}
+.footer {
+  padding-top: 6%;
+}
+.footer__list {
+  list-style-type: none;
+}
+.footer__list > li {
+  line-height: 30px;
+}
+.footer__list > li > a {
+  text-decoration: none;
+  color: grey;
+}
+.footer__list > li > a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+.socials {
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+.socials > span {
+  padding: 0 0.5rem;
+}
+.social-link {
+  color: #fff;
+}
+.mb_1 {
+  margin-bottom: 1rem;
+}
+.service-code {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  .carousel-caption {
+    bottom: 13rem !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel-caption {
+    bottom: 7rem !important;
+    right: 40% !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .carousel-caption {
+    bottom: 16rem !important;
+    right: 50% !important;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
